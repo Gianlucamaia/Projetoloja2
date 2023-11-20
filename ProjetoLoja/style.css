@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff523b;
+    color: #fff;
+    text-align: center;
+    padding: 70px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    
+    
+}
+
+.product {
+    width: 200px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(83, 255, 3, 0.1);
+    text-align: center;
+   
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+   
+    
+}
+
+.product form {
+    display: flex;
+    justify-content: center;
+}
+
+.cart {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cart form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cart input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    
+}
+
+.cart input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.success-message {
+    text-align: center;
+    color: green;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color:#ff523b;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px; 
+}
+
+footer img,
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer ul {
+    
+     display: block;
+     margin-bottom: 16px;
+     text-decoration: none;
+     max-width: 350px;
+}
+
+footer  p {
+    margin-bottom: 16px;
+}
+
+
+footer p a {
+
+    color: aqua;
+    text-decoration: none;
+      
+}
+
+#copyright {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 24px;
+    text-align: center;
+
+}
+
+#copyright a {
+
+    color: aqua;
+    
+}
+
